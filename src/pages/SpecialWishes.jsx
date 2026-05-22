@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import vidioWishes from "../assets/videos/Wishes.mp4";
+import FotoCount from "../assets/images/foto-birthdayy.jpg";
 
 const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
@@ -24,18 +24,13 @@ aku berharap semoga kamu bisa menjadi pribadi yang lebih baik ke depannya, tamba
         </h1>
 
         <div className="mb-8">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            webkit-playsinline="true"
-            x-webkit-airplay="allow"
-            className="w-full max-w-md mx-auto rounded-lg shadow-xl"
-          >
-            <source src={vidioWishes} type="video/mp4" />
-          </video>
-        </div>
+  <img
+    src={FotoCount}
+    alt="Birthday"
+    className="w-full max-w-md mx-auto rounded-lg shadow-xl object-cover"
+    style={{ transform: "translateZ(0)" }}
+  />
+</div>
 
         <motion.div
           whileHover={{ scale: isIOS ? 1 : 1.01 }}
