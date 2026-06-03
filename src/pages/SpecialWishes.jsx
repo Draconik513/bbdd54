@@ -8,7 +8,7 @@ const SpecialWishes = ({ isIOS }) => {
   const wishes = `
 Sayangku,
 
-Hari ini adalah momen yang paling indah karena hari ini kamu lahir ke dunia. Aku ingin berdoa agar kamu selalu dalam lindungan Tuhan, diberi kesehatan, kekuatan, dan kebahagiaan yang tiada akhir.
+Hari ini adalah momen yang paling indah karena hari ini kamu lahir ke dunia. Aku ingin berdoa agar kamu selalu dalam lindungan Allah SWT, diberi kesehatan, kekuatan, dan kebahagiaan yang tiada akhir.
 
 Aku tahu hidup tidak selalu mudah, tapi aku ingin kamu tahu bahwa kamu tidak sendiri. Aku akan selalu mendukungmu, menyemangati kamu, dan menjadi pundakmu saat kamu lelah.
 
