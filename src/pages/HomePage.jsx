@@ -21,7 +21,7 @@ const HomePage = ({ isIOS }) => {
         >
           <p className="text-lg text-pink-600 pt-4">Untuk yang tersayang</p>
           <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-600 via-pink-400 to-purple-500 text-transparent bg-clip-text drop-shadow-md">
-            Akbar 
+            Alvian Reansyah Kodja
           </h1>
         </motion.div>
 
@@ -60,13 +60,13 @@ const HomePage = ({ isIOS }) => {
           <h2 className="text-3xl font-bold text-pink-600">
             Selamat Ulang Tahun Sayang!
           </h2>
-          <p className="text-xl text-pink-600">🎉 06 Juni 2026 🎉</p>
+          <p className="text-xl text-pink-600">🎉 09 Juni 2026 🎉</p>
 
           <div className="mt-8 p-4 bg-white/80 backdrop-blur-sm rounded-lg max-w-md mx-auto border border-pink-200">
             <p className="text-pink-800 italic">
-              "Untuk dudu ku tersayang  di hari spesial dudu,, bubu ingin mengucapkan..  Happy birthday Selamat hari lahir manusia baik betapa beruntung nya bubu bisa menemani dudu, menjalani hari-hari dudu dari pagi ke pagi lagi..  Terimakasih sudah hadir di kehidupan bubu ya dudu Tetap menjadi lelaki yang bubu kenal sekarang, sehat selalu dan bahagia selalu di usia baru dudu"
+              "Selamat ulang tahun sayangku cintaku, sehat-sehat, panjang umur, , ian ❤️"
             </p>
-            <p className="mt-4 text-right text-pink-600 font-medium">- Aluna</p>
+            <p className="mt-4 text-right text-pink-600 font-medium">- Ami❤️</p>
           </div>
         </motion.div>
 

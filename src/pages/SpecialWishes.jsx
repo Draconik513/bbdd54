@@ -6,19 +6,13 @@ const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
 
   const wishes = `
-Sayangku,
+Selamat ulang tahun sayangku cintaku 😘 Meskipun hari ini kita nggak bisa tiup lilin bareng karena jarak, namun doaku membersamai Semoga di usia yang baru, sayang makin sukses, sehat, dan semua impianmu terwujud. 
 
-Hari ini adalah momen yang paling indah karena hari ini kamu lahir ke dunia. Aku ingin berdoa agar kamu selalu dalam lindungan Allah SWT, diberi kesehatan, kekuatan, dan kebahagiaan yang tiada akhir.
+Makasih ya tetap selalu ada buat aku lewat telepon, chat. Semoga sayang sehat selalu, makin sukses kerjanya, dan selalu bahagia. Jangan lupa makan enak hari ini cintaku.❤️
 
-Aku tahu hidup tidak selalu mudah, tapi aku ingin kamu tahu bahwa kamu tidak sendiri. Aku akan selalu mendukungmu, menyemangati kamu, dan menjadi pundakmu saat kamu lelah.
+Semangat ya sayang, mi paham, kita masih sama2 berproses, ada tanggung jawab yg harus diselesaikan, ada impian yg ingin diwujudkan, hingga kita masih harus LDR, bismillah Allah memantaskan mendukung ian dan mi akhirnya pulang kerumah yg sama sebagai pasangan yg sah, aamiin🙏🏻
 
-Semoga setiap langkahmu penuh keberkahan, dan setiap impianmu satu per satu menjadi kenyataan. Kamu punya hati yang baik, ramah ke semua orang, slalu rendah hati ke sesama, dan jiwa tulus luar dalam. Dunia butuh lebih banyak orang sepertimu.
-
-Aku ingin kamu tahu bahwa aku percaya padamu sepenuhnya. Kamu kuat, kamu hebat, dan kamu pantas mendapatkan yang terbaik. Jangan pernah ragukan dirimu sendiri, karena kamu adalah cahaya dalam hidup banyak orang, termasuk hidupku.
-
-Jika suatu hari kamu merasa ragu atau takut, ingatlah doaku ini: semoga kamu selalu dikelilingi orang-orang baik, rezeki yang cukup, dan cinta yang tulus dari semua arah. Termasuk dariku.
-
-Bubu cinta dudu, sayang dudu dan selalu mencintai dudu.. Muaaaaachhhh ❤️😘
+Happy birthday, my favorite person! I love you much ❤️
 `
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-100 to-purple-100 p-4 flex flex-col items-center justify-center">
@@ -87,10 +81,10 @@ Bubu cinta dudu, sayang dudu dan selalu mencintai dudu.. Muaaaaachhhh ❤️😘
               >
                 <div className="text-[12rem] select-none text-center">❤️</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  Akbar💖
+                  Alvian Reansyah Kodja💖
                 </div>
                 <div className="text-white text-lg text-center mt-4">
-                 Haatii bubu hanya untuk dudu seorang 🥹
+                 My Heart Is Only for You, Honey. 🥹
                 </div>
               </motion.div>
             </motion.div>

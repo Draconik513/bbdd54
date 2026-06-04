@@ -14,7 +14,7 @@ const BirthdayCountdown = ({ isIOS }) => {
   const [replyMessage, setReplyMessage] = useState("");
   const navigate = useNavigate();
 
-  const targetDate = new Date("2026-06-06T00:00:00");
+  const targetDate = new Date("2026-06-01T00:00:00");
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -63,7 +63,7 @@ const BirthdayCountdown = ({ isIOS }) => {
       >
         <h1 className="text-4xl md:text-5xl font-bold text-pink-600 mb-8">
           The Birthday of{" "}
-          <span className="text-purple-600">Akbar</span>
+          <span className="text-purple-600">Alvian Reansyah Kodja</span>
         </h1>
 
         <div className="mb-8">
@@ -109,16 +109,16 @@ const BirthdayCountdown = ({ isIOS }) => {
 
         <div className="bg-white p-6 rounded-xl shadow-lg mb-8 border border-pink-100">
           <h3 className="text-xl font-semibold text-purple-600 mb-2">
-            📅 06 Juni 2026
+            📅 09 Juni 2026
           </h3>
           <p className="text-pink-600">
-            Tanggal di mana semua kebahagiaan dan rezeki menyertai dudu
+             Tanggal dimana senyumanmu akan menerangi hariku🥹
           </p>
         </div>
 
         <p className="mt-6 text-lg text-pink-500 italic text-center">
-         "Hari ini dan setiap hari, aku akan selalu menjadi pendukung No1 mu, bertepuk tangan paling keras
-          untukmu, dan berdoa sepenuh hati untuk kesejahteraanmu."
+          "today and everyday, i'll always be ur #1 supporter, clap the loudest
+          for u, and praying wholeheartedly for ur well-being."
         </p>
       </motion.div>
 
