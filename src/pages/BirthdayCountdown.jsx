@@ -14,7 +14,7 @@ const BirthdayCountdown = ({ isIOS }) => {
   const [replyMessage, setReplyMessage] = useState("");
   const navigate = useNavigate();
 
-  const targetDate = new Date("2026-06-01T00:00:00");
+  const targetDate = new Date("2026-06-09T00:00:00");
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -109,7 +109,7 @@ const BirthdayCountdown = ({ isIOS }) => {
 
         <div className="bg-white p-6 rounded-xl shadow-lg mb-8 border border-pink-100">
           <h3 className="text-xl font-semibold text-purple-600 mb-2">
-            📅 09 Juni 2026
+            09 Juni 2026
           </h3>
           <p className="text-pink-600">
              Tanggal dimana senyumanmu akan menerangi hariku🥹
