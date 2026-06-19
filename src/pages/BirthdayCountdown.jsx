@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import VidioCount from "../assets/videos/birthday-wish.mp4";
+import contdownImg from "../assets/images/contdown.png";
 
 const BirthdayCountdown = ({ isIOS }) => {
   const [timeLeft, setTimeLeft] = useState({
@@ -67,18 +67,11 @@ const BirthdayCountdown = ({ isIOS }) => {
         </h1>
 
         <div className="mb-8">
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    webkit-playsinline="true"
-                    x-webkit-airplay="allow"
-                    className="w-full max-w-md mx-auto rounded-lg shadow-xl"
-                    style={{ transform: "translateZ(0)" }}
-                  >
-                    <source src={VidioCount} type="video/mp4" />
-                  </video>
+          <img
+            src={contdownImg}
+            alt="Countdown"
+            className="w-full max-w-md mx-auto rounded-lg shadow-xl"
+          />
         </div>
 
         <div className="mb-12">
