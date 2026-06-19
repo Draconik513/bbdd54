@@ -39,33 +39,33 @@ const Memories = ({ isIOS }) => {
          
          <div className="text-left text-pink-800 space-y-4 leading-relaxed">
            <p>
-             💌 <strong>Maaf ya, Sayang...</strong>
+             <strong>Maaf ya, Sayang...</strong>
            </p>
            <motion.p
              initial={{ opacity: 0, y: 20 }}
              animate={{ opacity: 1, y: 0 }}
              transition={{ duration: 1, delay: 0.6 }}
            >
-             Maaf kalau selama ini aku pernah cuek 😞, terlalu sibuk 😔, atau kurang
-             peka sama perasaanmu 😢. Maaf kalau kadang aku bikin kamu kecewa, salah
-             paham, atau merasa sendiri 😓. Aku gak pernah berniat nyakitin kamu 🥺.
+             Maaf kalau selama ini aku pernah cuek, terlalu sibuk, atau kurang
+             peka sama perasaanmu. Maaf kalau kadang aku bikin kamu kecewa, salah
+             paham, atau merasa sendiri. Aku gak pernah berniat nyakitin kamu.
              Semua itu karena aku manusia biasa yang masih belajar mencintaimu dengan
-             lebih baik 🤍.
+             lebih baik.
            </motion.p>
            <motion.p
              initial={{ opacity: 0, y: 20 }}
              animate={{ opacity: 1, y: 0 }}
              transition={{ duration: 1, delay: 1.2 }}
            >
-             Terima kasih sudah sabar, sudah tetap di sini 🫶. Aku akan terus belajar
-             jadi lebih baik lagi... untuk kamu 💗
+             Terima kasih sudah sabar, sudah tetap di sini. Aku akan terus belajar
+             jadi lebih baik lagi... untuk kamu.
            </motion.p>
            <motion.p
              initial={{ opacity: 0, y: 20 }}
              animate={{ opacity: 1, y: 0 }}
              transition={{ duration: 1, delay: 1.8 }}
            >
-             🙏🏻 Maaf ya, dan makasih karena kamu tetap percaya sama aku.
+             Maaf ya, dan makasih karena kamu tetap percaya sama aku.
            </motion.p>
          </div>
 
@@ -165,7 +165,7 @@ const Memories = ({ isIOS }) => {
             transition={{ delay: 2.2 }}
             className="text-center text-pink-600 mt-6 italic text-lg"
           >
-            🌸 Bunga ini sebagai hadiah dari permintaan maaf bubu, Sayang dudu... Tolong di terima yaa 😘😘
+            Bunga ini sebagai hadiah dari permintaan maaf bubu, Sayang dudu... Tolong di terima yaa
           </motion.p>
         )}
       </motion.div>
